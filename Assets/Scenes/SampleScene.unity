@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028305, g: 0.22571313, b: 0.3069213, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -596,9 +596,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: -8020101137810150435, guid: 85d1d4f61993f413ebc54742545dc203, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 75712fc9f74bd429fb49072d21b0bcb2, type: 2}
+    - target: {fileID: -6504015794860822919, guid: 85d1d4f61993f413ebc54742545dc203, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 72a28b018bfbb45f5b02ac59020eddaf, type: 2}
     - target: {fileID: 919132149155446097, guid: 85d1d4f61993f413ebc54742545dc203, type: 3}
       propertyPath: m_Name
-      value: tinker 3
+      value: Escritorio
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 85d1d4f61993f413ebc54742545dc203, type: 3}
@@ -928,9 +936,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: -6743218803001650385, guid: d0273443d96244b73a10e80ab3e93c77, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ebbc575a7fcc84b1189c6583ee287afb, type: 2}
     - target: {fileID: 919132149155446097, guid: d0273443d96244b73a10e80ab3e93c77, type: 3}
       propertyPath: m_Name
-      value: tinker 2
+      value: Silla
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d0273443d96244b73a10e80ab3e93c77, type: 3}
@@ -1234,7 +1246,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e69b7f99329364bc486d3bac0a934a9e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.04
+      value: -2.73
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e69b7f99329364bc486d3bac0a934a9e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1274,8 +1286,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e69b7f99329364bc486d3bac0a934a9e, type: 3}
       propertyPath: m_Name
-      value: tinker 1
+      value: Cama
       objectReference: {fileID: 0}
+    - target: {fileID: 3766636046713162410, guid: e69b7f99329364bc486d3bac0a934a9e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4d50a8633cb134aa580fe6a6019cc80c, type: 2}
+    - target: {fileID: 4394599346056311955, guid: e69b7f99329364bc486d3bac0a934a9e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 986e8cac4cb1a4fcfa6c9c9bfae68a7c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e69b7f99329364bc486d3bac0a934a9e, type: 3}
 --- !u!1001 &1145470251
